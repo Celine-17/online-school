@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Ceviche One", system-ui;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 20px;
   font-style: italic;
 }
@@ -29,9 +29,9 @@ header {
 }
 
 .header-contents img {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  border-radius: 70%;
   border: 2px solid gold;
 }
 
@@ -53,21 +53,23 @@ header {
 }
 
 .nav-links a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: brown;
   border-radius: 5px;
   color: gold;
   text-decoration: underline;
+  transition: 0.4s;
 }
 
 /* Main Section */
 section {
   padding: 40px 20px;
-  text-align: center;
-  color: #fff;
+  text-align: left;
+  color: #cbb391;
 }
 
 h1 {
   font-size: 3rem;
+  color: brown;
 }
 
 h3 {
@@ -77,19 +79,22 @@ h3 {
 
 p {
   margin: 20px 0;
+  color: #706e00;
 }
 
 .features {
-  list-style: none;
+  list-style: disc;
   margin: 20px 0;
 }
 
 .features li {
   margin: 10px 0;
+  font-size: 20px;
+  color: #706e00;
 }
 
 button {
-  background-color: #ff6347;
+  background-color: brown;
   color: white;
   padding: 15px 25px;
   border: none;
@@ -103,7 +108,7 @@ button a {
 }
 
 button:hover {
-  background-color: #ff4500;
+  background-color: gold;
 }
 
 /* Footer */
